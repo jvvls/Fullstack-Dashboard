@@ -1,2 +1,9 @@
 # Fullstack-Dashboard
-Pipeline reprodutível para análise e visualização do IPCA no Brasil, utilizando dados públicos do IBGE, com foco em engenharia de software e visualização interativa.
+
+Este projeto tem como objetivo desenvolver um pipeline reprodutível para
+tratamento, disponibilização e visualização de dados do IPCA no Brasil,
+utilizando dados públicos do IBGE.
+
+O foco do projeto é aplicar boas práticas de engenharia de software,
+incluindo organização de dados, APIs, visualização interativa e
+conteinerização.
