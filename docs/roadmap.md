@@ -2,12 +2,12 @@
 
 ### Etapa 1 — Organização
 - [x] Definição do dataset
-- [ ] Estruturação do repositório
+- [x] Estruturação do repositório
 
 ### Etapa 2 — Dados
-- [ ] Análise do dataset bruto
-- [ ] Definição do modelo de dados
-- [ ] Implementação do ETL
+- [x] Análise do dataset bruto
+- [x] Definição do modelo de dados
+- [x] Implementação do ETL
 
 ### Etapa 3 — Backend
 - [ ] API em Python (Flask)
