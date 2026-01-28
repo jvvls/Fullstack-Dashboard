@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 
-INPUT_PATH = "data/raw/ipca_grupos_regioes.csv"
+INPUT_PATH = "data/raw/2025_12.csv"
 
 OUTPUT_PATH = "data/processed/ipca_grupos_regioes_long.csv"
 
