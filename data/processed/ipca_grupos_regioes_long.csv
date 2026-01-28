@@ -1,0 +1,171 @@
+grupo,regiao,variacao
+Alimentação,Aracaju (SE),0.76
+Habitação,Aracaju (SE),-1.0
+Residência,Aracaju (SE),0.27
+Vestuário,Aracaju (SE),1.1
+Transportes,Aracaju (SE),0.57
+Saúde,Aracaju (SE),0.35
+Despesas pessoais,Aracaju (SE),0.53
+Educação,Aracaju (SE),0.1
+Comunicação,Aracaju (SE),0.62
+Índice geral,Aracaju (SE),0.36
+Alimentação,Belo Horizonte (MG),0.92
+Habitação,Belo Horizonte (MG),-0.63
+Residência,Belo Horizonte (MG),0.33
+Vestuário,Belo Horizonte (MG),0.46
+Transportes,Belo Horizonte (MG),0.26
+Saúde,Belo Horizonte (MG),0.65
+Despesas pessoais,Belo Horizonte (MG),0.67
+Educação,Belo Horizonte (MG),0.07
+Comunicação,Belo Horizonte (MG),0.07
+Índice geral,Belo Horizonte (MG),0.41
+Alimentação,Belém (PA),0.58
+Habitação,Belém (PA),-0.84
+Residência,Belém (PA),0.96
+Vestuário,Belém (PA),0.31
+Transportes,Belém (PA),-0.01
+Saúde,Belém (PA),0.75
+Despesas pessoais,Belém (PA),-3.69
+Educação,Belém (PA),0.06
+Comunicação,Belém (PA),0.62
+Índice geral,Belém (PA),-0.1
+Alimentação,Brasil,0.27
+Habitação,Brasil,-0.33
+Residência,Brasil,0.64
+Vestuário,Brasil,0.45
+Transportes,Brasil,0.74
+Saúde,Brasil,0.52
+Despesas pessoais,Brasil,0.36
+Educação,Brasil,0.08
+Comunicação,Brasil,0.37
+Índice geral,Brasil,0.33
+Alimentação,Brasília (DF),0.52
+Habitação,Brasília (DF),-0.42
+Residência,Brasília (DF),0.21
+Vestuário,Brasília (DF),1.44
+Transportes,Brasília (DF),1.55
+Saúde,Brasília (DF),0.29
+Despesas pessoais,Brasília (DF),0.28
+Educação,Brasília (DF),0.0
+Comunicação,Brasília (DF),0.5
+Índice geral,Brasília (DF),0.55
+Alimentação,Campo Grande (MS),-0.25
+Habitação,Campo Grande (MS),-0.46
+Residência,Campo Grande (MS),0.68
+Vestuário,Campo Grande (MS),0.5
+Transportes,Campo Grande (MS),0.5
+Saúde,Campo Grande (MS),0.49
+Despesas pessoais,Campo Grande (MS),0.52
+Educação,Campo Grande (MS),-0.11
+Comunicação,Campo Grande (MS),0.47
+Índice geral,Campo Grande (MS),0.17
+Alimentação,Curitiba (PR),-0.79
+Habitação,Curitiba (PR),-0.44
+Residência,Curitiba (PR),-0.66
+Vestuário,Curitiba (PR),-0.52
+Transportes,Curitiba (PR),0.33
+Saúde,Curitiba (PR),0.42
+Despesas pessoais,Curitiba (PR),1.21
+Educação,Curitiba (PR),0.07
+Comunicação,Curitiba (PR),0.36
+Índice geral,Curitiba (PR),-0.02
+Alimentação,Fortaleza (CE),0.24
+Habitação,Fortaleza (CE),-0.29
+Residência,Fortaleza (CE),0.05
+Vestuário,Fortaleza (CE),0.88
+Transportes,Fortaleza (CE),0.28
+Saúde,Fortaleza (CE),0.21
+Despesas pessoais,Fortaleza (CE),0.12
+Educação,Fortaleza (CE),0.13
+Comunicação,Fortaleza (CE),0.43
+Índice geral,Fortaleza (CE),0.17
+Alimentação,Goiânia (GO),0.49
+Habitação,Goiânia (GO),-1.8
+Residência,Goiânia (GO),0.06
+Vestuário,Goiânia (GO),0.51
+Transportes,Goiânia (GO),0.89
+Saúde,Goiânia (GO),0.51
+Despesas pessoais,Goiânia (GO),0.63
+Educação,Goiânia (GO),0.01
+Comunicação,Goiânia (GO),0.37
+Índice geral,Goiânia (GO),0.23
+Alimentação,Grande Vitória (ES),0.23
+Habitação,Grande Vitória (ES),-1.2
+Residência,Grande Vitória (ES),0.86
+Vestuário,Grande Vitória (ES),0.75
+Transportes,Grande Vitória (ES),0.58
+Saúde,Grande Vitória (ES),0.38
+Despesas pessoais,Grande Vitória (ES),0.92
+Educação,Grande Vitória (ES),0.17
+Comunicação,Grande Vitória (ES),0.3
+Índice geral,Grande Vitória (ES),0.21
+Alimentação,Porto Alegre (RS),0.01
+Habitação,Porto Alegre (RS),1.32
+Residência,Porto Alegre (RS),1.47
+Vestuário,Porto Alegre (RS),1.07
+Transportes,Porto Alegre (RS),1.11
+Saúde,Porto Alegre (RS),0.31
+Despesas pessoais,Porto Alegre (RS),0.24
+Educação,Porto Alegre (RS),0.14
+Comunicação,Porto Alegre (RS),0.39
+Índice geral,Porto Alegre (RS),0.63
+Alimentação,Recife (PE),0.89
+Habitação,Recife (PE),-1.27
+Residência,Recife (PE),1.19
+Vestuário,Recife (PE),1.57
+Transportes,Recife (PE),1.35
+Saúde,Recife (PE),0.21
+Despesas pessoais,Recife (PE),0.88
+Educação,Recife (PE),0.06
+Comunicação,Recife (PE),0.19
+Índice geral,Recife (PE),0.54
+Alimentação,Rio Branco (AC),-0.14
+Habitação,Rio Branco (AC),1.87
+Residência,Rio Branco (AC),0.51
+Vestuário,Rio Branco (AC),1.51
+Transportes,Rio Branco (AC),0.63
+Saúde,Rio Branco (AC),0.43
+Despesas pessoais,Rio Branco (AC),0.38
+Educação,Rio Branco (AC),0.32
+Comunicação,Rio Branco (AC),0.25
+Índice geral,Rio Branco (AC),0.59
+Alimentação,Rio de Janeiro (RJ),0.72
+Habitação,Rio de Janeiro (RJ),-0.07
+Residência,Rio de Janeiro (RJ),0.73
+Vestuário,Rio de Janeiro (RJ),1.01
+Transportes,Rio de Janeiro (RJ),0.86
+Saúde,Rio de Janeiro (RJ),0.55
+Despesas pessoais,Rio de Janeiro (RJ),0.59
+Educação,Rio de Janeiro (RJ),0.09
+Comunicação,Rio de Janeiro (RJ),0.42
+Índice geral,Rio de Janeiro (RJ),0.52
+Alimentação,Salvador (BA),1.23
+Habitação,Salvador (BA),-0.39
+Residência,Salvador (BA),0.69
+Vestuário,Salvador (BA),0.31
+Transportes,Salvador (BA),1.03
+Saúde,Salvador (BA),0.45
+Despesas pessoais,Salvador (BA),0.47
+Educação,Salvador (BA),0.07
+Comunicação,Salvador (BA),0.37
+Índice geral,Salvador (BA),0.59
+Alimentação,São Luís (MA),0.67
+Habitação,São Luís (MA),-1.9
+Residência,São Luís (MA),0.17
+Vestuário,São Luís (MA),1.07
+Transportes,São Luís (MA),0.37
+Saúde,São Luís (MA),0.55
+Despesas pessoais,São Luís (MA),0.38
+Educação,São Luís (MA),0.01
+Comunicação,São Luís (MA),0.34
+Índice geral,São Luís (MA),-0.19
+Alimentação,São Paulo (SP),-0.02
+Habitação,São Paulo (SP),-0.27
+Residência,São Paulo (SP),0.92
+Vestuário,São Paulo (SP),-0.05
+Transportes,São Paulo (SP),0.78
+Saúde,São Paulo (SP),0.66
+Despesas pessoais,São Paulo (SP),0.32
+Educação,São Paulo (SP),0.08
+Comunicação,São Paulo (SP),0.22
+Índice geral,São Paulo (SP),0.27
