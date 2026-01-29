@@ -4,6 +4,9 @@ import re
 
 RAW_DIR = "data/raw"
 OUTPUT_PATH = "data/processed/ipca_grupos_regioes_long.csv"
+SNAPSHOT_DIR = "data/processed/snapshots"
+os.makedirs(SNAPSHOT_DIR, exist_ok=True)
+
 
 dfs = []
 
@@ -26,6 +29,9 @@ for filename in os.listdir(RAW_DIR):
 
     df["grupo"] = df["grupo"].str.replace(r"^\d+\.", "", regex=True)
     df["grupo"] = df["grupo"].str.strip()
+
+    snapshot_path = f"{SNAPSHOT_DIR}/ipca_{ano}_{mes:02d}.csv"
+    df.to_csv(snapshot_path, index=False)
 
     df_long = df.melt(
         id_vars="grupo",
