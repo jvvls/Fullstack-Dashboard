@@ -10,8 +10,8 @@
 - [x] Implementação do ETL
 
 ### Etapa 3 — Backend
-- [ ] API em Python (Flask)
-- [ ] Endpoints básicos
+- [x] API em Python (Flask)
+- [x] Endpoints básicos
 
 ### Etapa 4 — Visualização
 - [ ] Gráficos com D3.js
