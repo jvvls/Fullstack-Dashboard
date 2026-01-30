@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+from flask import jsonify
 
 def load_data():
     BASE_DIR = os.path.dirname(os.path.dirname(__file__))
@@ -10,11 +11,12 @@ def load_data():
         "ipca_grupos_regioes_long.csv"
     )
 
-    df = pd.read_csv(CSV_PATH)
+    print("Lendo CSV em:", CSV_PATH)
 
-    print(df.head())
+    # 👇 ESTA LINHA É A CHAVE
+    df = pd.read_csv(CSV_PATH, sep="\t")
 
-    json_output = df.to_json(orient="records")
-    print(json_output)
+    print("Colunas detectadas:", df.columns.tolist())
+    print("Linhas:", len(df))
 
-    return json_output
+    return jsonify(df.to_dict(orient="records"))
