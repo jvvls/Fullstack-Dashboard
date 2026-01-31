@@ -14,8 +14,8 @@
 - [x] Endpoints básicos
 
 ### Etapa 4 — Visualização
-- [ ] Gráficos com D3.js
-- [ ] Interação e filtros
+- [x] Gráficos com D3.js
+- [x] Interação e filtros
 
 ### Etapa 5 — Infraestrutura
 - [ ] Dockerização do backend
