@@ -1,162 +1,172 @@
+:root {
+  --bg: #020617;
+  --panel: #020617;
+  --border: #1e293b;
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+  --accent: #38bdf8;
+}
+
+/* Reset básico */
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  background: #1e1e2f;
-  font-family: Inter, system-ui, sans-serif;
-  color: #e0e0e0;
-  height: 100vh;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: linear-gradient(180deg, #020617 0%, #0f172a 100%);
+  color: var(--text);
 }
 
-.app {
-  width: 95%;           /* praticamente sem margem lateral */
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 12px;        /* padding pequeno */
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
+/* =========================
+   DASHBOARD
+========================= */
 
-.header {
-  text-align: center;
-  margin-bottom: 16px;
-}
-
-.header h1 {
-  margin: 0;
-  font-size: 36px;
-  color: #fff;
-}
-
-.header p {
-  margin-top: 6px;
-  color: #a0a0b0;
-  font-size: 18px;
-}
-
-/* ===============================
-   Dashboard Grid Fullscreen
-================================ */
 .dashboard {
-  display: flex;
-  flex: 1;
-  gap: 48px; /* espaço maior entre mapa e coluna direita */
-  height: calc(100vh - 80px); /* altura total menos header */
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 24px;
+  padding-bottom: 120px; /* 🔥 respiro no final da página */
+  display: grid;
+  gap: 24px;
 }
 
-/* Mapa à esquerda */
-.left-panel {
-  flex: 2; /* 2/3 da largura */
-  display: flex;
-}
-
-.left-panel .card {
-  flex: 1; /* preenche toda a coluna */
-  display: flex;
-  flex-direction: column;
-}
-
-/* Painel direito: dois cards empilhados */
-.right-panel {
-  flex: 1; /* 1/3 da largura */
-  display: flex;
-  flex-direction: column;
-  gap: 24px; /* espaço entre os cards da direita */
-}
-
-.right-panel .card {
-  flex: 1; /* divide altura igualmente */
-  display: flex;
-  flex-direction: column;
-}
-
-/* ===============================
-   Cards
-================================ */
-.card {
-  background: #2a2a40;
-  border-radius: 20px;
-  padding: 16px;
-  box-shadow: 0 10px 28px rgba(0,0,0,0.5);
-  overflow: hidden;
-}
-
-.card h2 {
+.dashboard-title {
+  font-size: 1.4rem;
+  font-weight: 600;
   margin-bottom: 12px;
-  font-size: 22px;
-  color: #fff;
 }
 
-/* Charts ocupando todo o card */
-.chart {
-  flex: 1;
-  width: 100%;
-  min-height: 0;
+.card-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #e5e7eb;
 }
 
-.select-filter {
-  background: #1e1e2f;
-  color: #e0e0e0;
-  border: 1px solid #555;
-  border-radius: 12px;
-  padding: 6px 12px;
-  font-size: 14px;
-  transition: all 0.2s;
+.dashboard-header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.select-filter:hover {
-  border-color: #ff7f50;
+/* =========================
+   GRID PRINCIPAL
+========================= */
+
+.main-grid {
+  display: grid;
+  grid-template-columns: minmax(520px, 40%) 1fr;
+  gap: 24px;
+
+  /* 🔥 CONTROLE VERTICAL */
+  height: 75vh;
+  min-height: 600px;
+  max-height: 780px;
+
+  align-items: stretch;
 }
 
-.select-filter:focus {
-  outline: none;
-  border-color: #ff7f50;
-  box-shadow: 0 0 6px rgba(255,127,80,0.5);
+/* =========================
+   COLUNA ESQUERDA (MAPA)
+========================= */
+
+.map-card {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.chart {
+.map-svg {
   width: 100%;
   height: 100%;
 }
 
-.select-filter {
-  background: #1e1e2f;
-  color: #e0e0e0;
-  border: 1px solid #555;
-  border-radius: 12px;
-  padding: 6px 12px;
-  font-size: 14px;
-  transition: all 0.2s;
+/* =========================
+   COLUNA DIREITA (GRÁFICOS)
+========================= */
+
+.charts-column {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 24px;
+  height: 100%;
 }
 
-.select-filter:hover {
-  border-color: #ff7f50;
+.charts-column .card {
+  display: flex;
+  align-items: center;
 }
 
-.select-filter:focus {
+/* =========================
+   CARDS
+========================= */
+
+.card {
+  background: linear-gradient(180deg, #020617 0%, #020617cc 100%);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 16px 20px;
+  box-shadow:
+    0 10px 25px -10px rgba(0,0,0,0.6),
+    inset 0 1px 0 rgba(255,255,255,0.03);
+}
+
+/* =========================
+   FILTROS
+========================= */
+
+.filters {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.filters select {
+  background: #020617;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 0.85rem;
   outline: none;
-  border-color: #ff7f50;
-  box-shadow: 0 0 6px rgba(255,127,80,0.5);
 }
 
-/* ===============================
-   Responsivo
-================================ */
-@media (max-width: 1200px) {
-  .dashboard {
-    flex-direction: column;
+.filters select:hover {
+  border-color: var(--accent);
+}
+
+/* =========================
+   SVGs
+========================= */
+
+svg {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+@media (max-width: 1024px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+    height: auto;
+    max-height: none;
+    min-height: unset;
+  }
+
+  .charts-column {
     height: auto;
   }
 
-  .left-panel, .right-panel {
-    flex: unset;
-  }
-
-  .right-panel {
-    flex-direction: column;
-  }
-
-  .card {
-    height: 400px;
+  .map-card {
+    height: 60vh;
+    min-height: 420px;
   }
 }
-
