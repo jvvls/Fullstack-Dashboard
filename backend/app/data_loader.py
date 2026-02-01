@@ -13,7 +13,6 @@ def load_data():
 
     print("Lendo CSV em:", CSV_PATH)
 
-    # 👇 ESTA LINHA É A CHAVE
     df = pd.read_csv(CSV_PATH, sep="\t")
 
     print("Colunas detectadas:", df.columns.tolist())
