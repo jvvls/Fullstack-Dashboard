@@ -18,5 +18,5 @@
 - [x] Interação e filtros
 
 ### Etapa 5 — Infraestrutura
-- [ ] Dockerização do backend
-- [ ] Docker Compose
+- [x] Dockerização do backend
+- [x] Docker Compose
